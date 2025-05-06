@@ -35,43 +35,18 @@ public class Student {
         this.gender = gender;
     }
 
-    public int getId() {
-        return id;
-    }
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public String getName() {
-        return name;
-    }
+    public String getStudentClass() { return studentClass; }
+    public void setStudentClass(String studentClass) { this.studentClass = studentClass; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public int getMarks() { return marks; }
+    public void setMarks(int marks) { this.marks = marks; }
 
-    public String getStudentClass() {
-        return studentClass;
-    }
-
-    public void setStudentClass(String studentClass) {
-        this.studentClass = studentClass;
-    }
-
-    public int getMarks() {
-        return marks;
-    }
-
-    public void setMarks(int marks) {
-        this.marks = marks;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+    public String getGender() { return gender; }
+    public void setGender(String gender) { this.gender = gender; }
 }

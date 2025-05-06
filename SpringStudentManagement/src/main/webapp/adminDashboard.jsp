@@ -53,7 +53,7 @@
             justify-content: space-around;
             gap: 15px;
             margin-top: 20px;
-            flex-wrap: wrap; /* Ensures buttons are responsive */
+            flex-wrap: wrap; 
         }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
         table, th, td { border: 1px solid #ddd; }
@@ -69,7 +69,7 @@
 <body>
     <div class="navbar">
         <h2>Admin Dashboard</h2>
-        <a href="LogoutServlet" class="logout-btn">Logout</a> <!-- Logout button added to navbar -->
+        <a href="LogoutServlet" class="logout-btn">Logout</a> 
     </div>
 
     <div class="container">
